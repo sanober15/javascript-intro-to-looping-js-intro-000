@@ -21,8 +21,18 @@ var s = ""
       s = `I am ${i} strange loops.`
     }
     array = [...array, s]
-    array;
+    array
     }
 
     return array;
   }
+
+
+function whileLoop(n){
+  while (n >= 0) {
+  console.log(n--)
+  
+}
+return console.log('done');
+
+}
