@@ -1,7 +1,7 @@
 function doWhileLoop(array){
   function maybeTrue() {
   return array.pop()
-  
+
 }
 
 do {
