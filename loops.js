@@ -13,10 +13,16 @@ array;
 
 
 function forLoop(array){
-  for (var i = 0; i < 25; i++) {
-    var s = `I am ${i} strange loops.`
-    array = [...array, s]
-    array
+  
+  for (var i = 0; i < 1; i++) {
+    if (i === 1) {
+      var s = `I am ${i} strange loop.`
+    }else {
+      var s = `I am ${i} strange looops.`
     }
+    array = [...array, s]
+    array;
+    }
+    
     return array;
   }
