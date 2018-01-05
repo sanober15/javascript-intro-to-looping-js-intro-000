@@ -13,7 +13,7 @@ array;
 
 
 function forLoop(array){
-  
+
   for (var i = 0; i < 1; i++) {
     if (i === 1) {
       var s = `I am ${i} strange loop.`
@@ -23,6 +23,6 @@ function forLoop(array){
     array = [...array, s]
     array;
     }
-    
+
     return array;
   }
