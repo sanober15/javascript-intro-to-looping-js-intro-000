@@ -14,7 +14,7 @@ array;
 
 function forLoop(array){
   for (var i = 0; i < 25; i++) {
-    var s = `I am ${i} stange loops.`
+    var s = `I am ${i} strange loops.`
     array = [...array, s]
     array
     }
