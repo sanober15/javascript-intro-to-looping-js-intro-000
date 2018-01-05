@@ -13,12 +13,12 @@ array;
 
 
 function forLoop(array){
-
+var s = ""
   for (var i = 0; i < 25; i++) {
     if (i === 1) {
-      var s = `I am ${i} strange loop.`
+       s = `I am ${i} strange loop.`
     }else {
-      var s = `I am ${i} strange looops.`
+      s = `I am ${i} strange loops.`
     }
     array = [...array, s]
     array;
